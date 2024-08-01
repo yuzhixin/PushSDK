@@ -1,4 +1,4 @@
-module github.com/xxgail/PushSDK
+module github.com/yuzhixin/PushSDK
 
 go 1.13
 

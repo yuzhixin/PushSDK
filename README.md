@@ -1,5 +1,5 @@
 # PushSDK
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/xxgail/PushSDK)](https://pkg.go.dev/github.com/xxgail/PushSDK)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/yuzhixin/PushSDK)](https://pkg.go.dev/github.com/yuzhixin/PushSDK)
 
 Go-PushSDK
 给APNS发推送消息。包括iOS、华为、小米、魅族、OPPO、vivo
@@ -8,17 +8,17 @@ Go-PushSDK
 
 🍬 Add the library to your $GOPATH/src
 
-`go get github.com/xxgail/PushSDK`
+`go get github.com/yuzhixin/PushSDK`
 
 
 
-- [builder.go](https://github.com/xxgail/PushSDK/blob/master/builder.go) 构建消息体
-- [common.go](https://github.com/xxgail/PushSDK/blob/master/common.go) 包内的公共方法
-- [const.go](https://github.com/xxgail/PushSDK/blob/master/const.go) 定义常量
-- [http_request.go](https://github.com/xxgail/PushSDK/blob/master/http_request.go) http请求公共方法
+- [builder.go](https://github.com/yuzhixin/PushSDK/blob/master/builder.go) 构建消息体
+- [common.go](https://github.com/yuzhixin/PushSDK/blob/master/common.go) 包内的公共方法
+- [const.go](https://github.com/yuzhixin/PushSDK/blob/master/const.go) 定义常量
+- [http_request.go](https://github.com/yuzhixin/PushSDK/blob/master/http_request.go) http请求公共方法
 - xx_push.go 各个渠道的推送具体请求
-- [result_common.go](https://github.com/xxgail/PushSDK/blob/master/result_common.go) 返回格式
-- [send.go](https://github.com/xxgail/PushSDK/blob/master/send.go) sendMessage主体步骤
+- [result_common.go](https://github.com/yuzhixin/PushSDK/blob/master/result_common.go) 返回格式
+- [send.go](https://github.com/yuzhixin/PushSDK/blob/master/send.go) sendMessage主体步骤
 
 
 # example
@@ -27,7 +27,7 @@ package main
 
 import (
     "fmt"
-    "github.com/xxgail/PushSDK"
+    "github.com/yuzhixin/PushSDK"
 )
 
 func main() {
