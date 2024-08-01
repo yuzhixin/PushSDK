@@ -69,6 +69,7 @@ func (h *HW) initMessage(m *Message, token []string) string {
 				Body:  m.Desc,
 			},
 			Android: Android{
+				Category: "WORK",
 				Notification: AndroidNotification{
 					Title: m.Title,
 					Body:  m.Desc,
