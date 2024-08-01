@@ -30,6 +30,7 @@ type Notification struct {
 type Android struct {
 	CollapseKey  int                 `json:"collapse_key"` // 缓存。0-只缓存新的一条，-1对所有离线消息都缓存、1-100分组缓存
 	Notification AndroidNotification `json:"notification"`
+	Category     string              `json:"category"` // 消息分类
 }
 
 type AndroidNotification struct {
